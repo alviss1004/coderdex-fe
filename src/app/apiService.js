@@ -2,7 +2,7 @@ import axios from "axios";
 import { BASE_URL } from "./config";
 
 const apiService = axios.create({
-  baseURL: "https://gorgeous-mooncake-e9b2bc.netlify.app/",
+  baseURL: BASE_URL,
 });
 
 apiService.interceptors.request.use(
